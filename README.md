@@ -46,3 +46,16 @@ Moved to [Live reloading and SASS compilation](http://cookiecutter-django.readth
 ## Deployment
 
 The following details how to deploy this application.
+
+## Local Setup
+
+    $ git clone https://github.com/nitinsaini1008/My-Form.git
+    $ cd My-Form
+    $ pip3 install -r requirenment/base.txt
+    $ pip3 install -r requirenment/local.txt
+    $ pip3 install -r requirenment/production.txt
+    
+    Create a Data Base and add in your env file or in the base.txt file
+    
+    $ pip3 manage.py migrate
+    $ pip3 manage.py runserver
