@@ -59,3 +59,6 @@ The following details how to deploy this application.
     
     $ pip3 manage.py migrate
     $ pip3 manage.py runserver
+    
+## Post-Man Collection:-
+https://www.getpostman.com/collections/35e3059c3372061471f6
